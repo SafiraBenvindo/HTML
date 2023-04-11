@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <legend> Vitória Safira Benvindo UC21105673</legend>
+    <h1 style="text-align: center;">Marcação de consultas: </h1>
+
+    <form method="post">
+        <fieldset>
+            <legend> Dados Pessoais:</legend>
+            <label for="nome_completo"> Insira o nome completo do paciente: </label><br>
+            <input type="text" id="nome_completo" name="nome_completo"><br>
+            <label for="CPF"> Insira o CPF do paciente: </label><br>
+            <input type="text" name="CPF"><br>
+            <label for="data_nascimeto">Insira a data de nascimento do paciente</label><br>
+            <input type="date" id="data_nascimeto"><br>
+            <label for="E-mail"> Insira o E-mail para confirmação:</label><br>
+            <input for="email" id="E-mail"><br>
+            <label for="telefone"> Insira o telefone para contato:</label><br>
+            <input for="tel" id="telefone"><br>
+          
+        </fieldset>
+
+        <fieldset>  
+            <legend>Dados da consulta:</legend>
+           
+            <label for="especialidade_médica">Qual especialidade medica desejada?: </label><br>
+            <select id="especialidade_médica" name="especialidade_médica"><br>
+                <option value="especialidade_médica">Cardiologia</option>
+                <option value="especialidade_médica">Dermatoligia</option>
+                <option value="especialidade_médica">Psiquiatria</option>
+                <option value="especialidade_médica">Neurologia</option>
+                <option value="especialidade_médica">Geriatria</option>
+                <option value="especialidade_médica">Pediatria</option>
+                <option value="especialidade_médica">Oncologia</option>
+                <option value="especialidade_médica">Ortopedia</option><br>
+            </select><br>
+            
+            <label for="alergias">Tem alergia a algum medicamento? Quais?:</label><br>
+            <input type="text" id="alergias" name="alergias"><br>
+            <label for="info">Insira aqui informações adicionais relevantes a consulta:</label><br>
+            <input type="text" id="info" name="info"><br><br>
+
+            <input type="submit" value="enviar">
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
