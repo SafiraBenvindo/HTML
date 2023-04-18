@@ -1,0 +1,12 @@
+.tabuleiro{
+    width: 400px;
+    height: 400px;
+}
+
+.white_house{
+    background-color: whitesmoke;
+}
+
+.black-house{
+    background-color: #000;
+}
